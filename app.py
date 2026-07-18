@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load('/content/drive/MyDrive/Penambangan Data_Raihandika/model_tpia.joblib')
+model = joblib.load('model_tpia.joblib')
 
 st.set_page_config(page_title="Prediksi Saham TPIA", layout="centered")
 
